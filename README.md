@@ -127,5 +127,3 @@ The results are presented in a table or graph so that the benefits from the opti
 Sensor Based Aquaponics Fish Pond Dataset: [Kaggle Link](https://www.kaggle.com/datasets/ogbuokiriblessing/sensor-based-aquaponics-fish-pond-datasets).
 Intel oneAPI Documentation: [Intel oneAPI](https://www.intel.com/content/www/us/en/developer/tools/oneapi/overview.html).
 
---- 
-Let me know if you'd like to expand on a particular section!
