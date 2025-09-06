@@ -1,129 +1,25 @@
+<h1 align="center">Hi 👋, I'm Akash V</h1>
+<h3 align="center">A passionate developer from India</h3>
 
-# Aquaponics System with AI-Powered Decision Support
-Overview
-The envisaged project employs an AI approach for optimizing the management and performance of the aquaponics system with a decision-support system that is driven by real-time sensor data to predict and automate optimum control actions for maintaining desired water quality conditions. The overall task is split into two primary constituents.
+- 🔭 I’m currently working on **Fatique identification in driving system using Learning algorithm**
 
-1. **Standard LSTM Neural Network Implementation**: Long Short-Term Memory model development and training for action predictions based on time-series sensor readings.
-2. **Intel-Optimized Version**: With access to optimized libraries from Intel, the training and inference of models will be improved, such as a TensorFlow and scikit-learn that provide better performance and scalability.
+- 🌱 I’m currently learning **Spring Boot, Data Structures and SAP.**
 
-### **Objectives:**
-• Develop a predictive model that will recommend appropriate actions on the basis of sensor data both past and current.
-• Draw insights on improvement of performance using specialized libraries of Intel on deep learning as well as machine learning.
+- 📫 How to reach me **akalan803@gmail.com**
 
----
+- 📄 Know about my experiences [https://drive.google.com/file/d/1tzBIDSlomg3kGY8gdN0kEGXKdMTgWojX/view?usp=sharing](https://drive.google.com/file/d/1tzBIDSlomg3kGY8gdN0kEGXKdMTgWojX/view?usp=sharing)
 
-## **1. Dataset Overview**
-This project is based on a **Sensor Based Aquaponics Fish Pond Dataset**, published on Kaggle. The dataset is rich in time-series data from the reading of sensors monitoring an aquaponics system. The parameters collected include:
- 
-- **Temperature**: Water temperature in Celsius.
-- **pH**: The measure of acid or alkali in the water.
-- **Dissolved Oxygen (DO)**: Concentration of oxygen in mg/L, thus reporting the availability of oxygen for the fish.
-- **Ammonia**: Ammonia concentration in parts per million (ppm).
-- **Flow Rate**: Rate at which water is flowing through the system.
+- ⚡ Fun fact **I am a keen learner**
 
-### Data Characteristics:
-The dataset is already in chronological order, which makes it well suited for sequence modeling with recurrent neural networks such as LSTMs. It also has a column manually labeled `action`, indicating required system interventions, such as nutrient adjustments, balancing water flow, or pH levels.
-  
-### Dataset Link:
-The dataset can be accessed and downloaded from Kaggle</https://www.kaggle.com/datasets/ogbuokiriblessing/sensor-based-aquaponics-fish-pond-datasets>.
-Purpose:
-Data Preprocessing is an important process to transform raw data sensed from the sensors in a form that is easily usable for the models of machine learning. Data preprocessing includes:
- 
-1.  Missing Values Handling: Fill or interpolate missing entries from sensor readings that appear missing or inconsistent.
-2.  Data Normalization: In such datasets, sensor readings have different units of measurement and scales, such as temperature and pH. Normalize values using techniques like Min-Max scaling.
-3. **Feature Engineering**: Select only appropriate features such as `temperature`, `pH`, `DO`, `ammonia`, and `flow` and remove redundant columns.
-4. **Encoding the Target Variable**: Encode categorical action names to numerical values such as 'increase_nutrient', 'turn_on_pump'
-5. **Sequence Generation for LSTM**: LSTM needs sequences as input and returns an invariant time window. This includes generating sequences of sensor readings with the respective actions to train the model as well.
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://linkedin.com/in/alanak1827" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="alanak1827" height="30" width="40" /></a>
+<a href="https://instagram.com/iam_alan_ak" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="iam_alan_ak" height="30" width="40" /></a>
+<a href="https://www.leetcode.com/alan_ak_" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="alan_ak_" height="30" width="40" /></a>
+<a href="https://auth.geeksforgeeks.org/user/alan_ak_" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="alan_ak_" height="30" width="40" /></a>
+</p>
 
-### Output of Preprocessing:
-The final preprocessed data is comprised of time-based sequences of sensor readings together with an encoded target label for each sequence. This is fed into the LSTM model in this input format.
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://www.blender.org/" target="_blank" rel="noreferrer"> <img src="https://download.blender.org/branding/community/blender_community_badge_white.svg" alt="blender" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.mathworks.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://spring.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/> </a> </p>
 
----
-
-## **3. Building the LSTM Model**
-### **Model Overview:**
-The LSTM model is one kind of recurrent neural network (RNN) designed for capturing dependency in sequential data. It is suitable for time-series prediction and classification, in which historical data affects the future state. The following sections discuss applying an LSTM to learn sensor data patterns so as to predict the best action for the system.
-
-### Model Architecture
-The architecture of the LSTM model can be described below:
-1. Input Layer: Provide sequences of timesteps, along with features like temperature, pH, and dissolved oxygen.
-2. Hidden LSTM Layers: Two LSTM layers stacked to capture temporal dependencies.
-3. Dropout Layers: Used to avoid overfitting and therefore enhance generalization
-4. Dense Layers: Fully connected layers for transforming the LSTM outputs into a probability distribution over possible actions.
-5. Output Layer: Employed softmax activation, multi-class classification so as to predict the appropriate action.
-
-### Model Purpose:
-The trained LSTM model will, in real-time, predict the control actions to be carried out given the sequence of sensor readings most recently registered.
-
----
-
-## 4. Utilizing Intel-Optimized Libraries
-### Objective:
-For this, they have various specialized libraries, like **Intel TensorFlow** and **Intel Extension for Scikit-learn**, which are basically conceived to take a thrust in machine learning model performance on Intel hardware by optimizing deep learning operations, like matrix multiplications, data transformation using low-level optimizations.
-
-### **Intel TensorFlow:**
-Intel publishes a distribution of TensorFlow: `intel-tensorflow`. They aim at accelerating performance of deep learning models on CPUs. In the course of this project we are adding `intel-tensorflow` to speed up training and inference of the LSTM model.
-
-### **Intel Extension for Scikit-Learn:**
-This extension (`scikit-learn-intelex`) patches general operations that occur in scikit-learn, such as data pre-processing and model training, thus reducing the execution time. We can improve certain parts of the workflow through incorporating this library-for example, scaling data and encoding labels.
-
-### **Performance Benefits:**
-1. **Faster Model Training**: Optimizations by Intel result in reducing the times to train the model by up to an order of magnitude on Intel hardware.
-2. **Fewer Resources Used**: Better use of the CPU means usage on lower-power devices in the real world.
-
----
-
-## Model Training and Evaluation
-### Training:
-The trained LSTM model is fit to use preprocessed time series. The model learns to approximate the relationship for sequences of sensor readings and corresponding actions while training. Hyperparameters like the number of LSTM layers, units, dropout rates, and epochs are finely tuned for optimal outcomes.
-
-### Evaluation:
-Evaluation Metrics
-Standard metrics of accuracy, precision, and recall are used with the trained model. The focus of evaluation is on the prediction capability of the model in predicting correct actions on unseen test sequences.
-
-### **Intel-Optimized Training:**
-The project documents and compares, through training time, memory usage, and CPU utilization against standard TensorFlow, using Intel's libraries.
-
----
-
-
-## **6. Performance Comparison**
-### **Objective:**
-The performance of the standard LSTM model is compared against the variant optimized by Intel. Metrics for comparison are defined below:
-
-1.  **Training Time**: Compare reduction in training time using TensorFlow that was optimized by Intel.
-2.  **Inference Speed**: Determine how quickly the model can make predictions for new sensor sequences.
-3.  **Resource Utilization**: Compare the CPU and memory usage during training and inference.
-
-### Results
-The results are presented in a table or graph so that the benefits from the optimizations by Intel can be visibly noticed.
-
----
-
-## **7. Running the Project**
-### **Requirements:**
- Install `intel-tensorflow`, `scikit-learn-intelex`, `pandas`, and any other required libraries.
- Download and preprocess your dataset.
-
-### **Steps:**
-1. **Download the Dataset**: Keep the dataset within the project directory.
-2. **Preprocess the Data**: Run the script for data preprocessing.
-3. **Training LSTM Model**: I train the model through the use of standard TensorFlow.
-4. **Intel-TensorFlow**: Run the training script through Intel's optimized libraries.
-5. **Performance Comparison**: Record the output.
- 
---- 
-
-
-
-  
-
-## **8. Future Work**
-- **Reinforcement Learning**: A reinforcement learning-based decision-making system shall be developed that can learn autonomously.
-- **Real-Time Deployment**: The model shall then be integrated with live IoT sensors for real-time decision support.
-- **IoT Automation**: These predictions can then automate the physical elements such as pumps and nutrient dispensers.
-
-****9. References***
-Sensor Based Aquaponics Fish Pond Dataset: [Kaggle Link](https://www.kaggle.com/datasets/ogbuokiriblessing/sensor-based-aquaponics-fish-pond-datasets).
-Intel oneAPI Documentation: [Intel oneAPI](https://www.intel.com/content/www/us/en/developer/tools/oneapi/overview.html).
 
